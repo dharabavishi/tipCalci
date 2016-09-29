@@ -10,6 +10,7 @@ This calucator asks the user to enter the bill amount. User can choose the tip p
 Below are few other functionality:
 
 1.App allows to choose default tip percent and default number of persons to split the bill amount.
+
 2.Save the bill amount for 10 mins.
 3.Animation for entering bill amount when app starts
 4.Locale specific currency and currency thousands separator.
