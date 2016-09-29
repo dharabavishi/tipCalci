@@ -1,24 +1,52 @@
-# tipCalci
-Tip Calculator for iOS 
+# Pre-work - **Tip Calci**
 
-This is an app which is used calculate tip, total and share of each person on splitting the total amount. This app is pre work for CODEPATH (https://codepath.com/)
+**Tip Calci** is a tip calculator application for iOS.
 
-#Functionality
+Submitted by: **Dhara Bavishi**
 
-This calucator asks the user to enter the bill amount. User can choose the tip percentage and number of person for splitting the bill amount. On the basis of this info, the app calculates the total bill amount and share for each person.
+Time spent: **9** hours spent in total
 
-Below are few other functionality:
+## User Stories
 
-1.App allows to choose default tip percent and default number of persons, to split the bill amount.
+The following **required** functionality is complete:
 
-2.Saves the bill amount for 10 mins.
+* [X] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+* [X] Settings page to change the default tip percentage.
 
-3.Animation for entering bill amount when app starts.
+The following **optional** features are implemented:
+* [X] UI animations
+* [X] Remembering the bill amount across app restarts (if <10mins)
+* [X] Using locale-specific currency and currency thousands separators.
+* [X] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
-4.Locale specific currency and currency thousands separator.
+The following **additional** features are implemented:
 
-5.Basic UI and changes in font color and name.
+- [ ] Splits the amount on the basis of number of people selected
 
-6.Keyboard is always visible when app launches.
+## Video Walkthrough 
 
-![Walkthrough](https://github.com/dharabavishi/tipCalci/blob/master/walkThrough.gif)
+Here's a walkthrough of implemented user stories:
+
+<img src='https://github.com/dharabavishi/tipCalci/blob/master/walkThrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
+## Notes
+
+Bill amount was not showing up sometimes. Solved it by assigning value in the main thread.
+
+## License
+
+    Copyright [yyyy] [Dhara Bavishi]
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
