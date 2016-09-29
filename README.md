@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # tipCalci
 Tip Calculator for iOS 
 
@@ -20,3 +21,6 @@ Below are few other functionality:
 5.Basic UI and changes in font color and name.
 
 6.Keyboard is always visible when app launches.
+=======
+# tipCalci
+>>>>>>> 46e663b42da9564ffe17806a03e47c4efb3c9f87
